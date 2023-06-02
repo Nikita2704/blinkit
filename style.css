@@ -186,12 +186,14 @@ header .container {
     max-width: 1280px;
 }
 .banner img{
-    width:102.5%;
+    margin-left: 25px;
+    width:100%;
 }
 .banner-2{
     display: flex;
     gap:20px;
     overflow: auto;
+    margin-left: 25px;
 }
 .banner-2 .banner-img img{
     width: 335px;
@@ -200,9 +202,11 @@ header .container {
 .categories{
     display: grid;
     grid-template-columns: repeat(10,10%);
-    width: 103%;
+    width: 100%;
     position: relative;
+
     left: -18px;
+    margin-left: 25px;
 }
 .categories img{
     width: 100%;
@@ -212,6 +216,7 @@ header .container {
     flex-direction: column;
     margin-top: 10px;
     row-gap: 25px;
+    margin-left: 25px;
 }
 .title{
     display: flex;
